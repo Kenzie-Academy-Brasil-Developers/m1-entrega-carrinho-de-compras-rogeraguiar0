@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+section p {
+    padding: 0 20px;
+}
+button {
+    height: 50px;
+    width: 800px;
+
+    background-color: #20C997;
+    color:#fff;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+.list li {
+    margin: 20px 0;
+
+    height: 50px;
+    width: 800px;
+    padding: 0 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    list-style: none;
+
+    background-color: #F8F9FA;
+    border-radius: 8px;
+}
+
+.sectionItens {
+    margin: 10px 0;
+
+    height: 50px;
+    width: 800px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #212529;
+    color: #fff;
+    border-radius: 8px;
+}
+.sectionSoma {
+    margin: 10px 0px;
+
+    height: 80px;
+    width: 800px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #E9ECEF;
+    border-radius: 8px;
+}
