@@ -30,6 +30,9 @@ button {
 
     font-size: 15px;
 }
+button:hover {
+    background-color: #18a77c;
+}
 
 .list li {
     margin: 20px 0;
